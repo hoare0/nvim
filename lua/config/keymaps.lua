@@ -4,6 +4,8 @@
 
 local keymap = vim.keymap
 
+-- 标签页跳转
 keymap.set("n", "<c-p>", "<cmd>BufferLineCyclePrev<cr>")
 keymap.set("n", "<c-n>", "<cmd>BufferLineCycleNext<cr>")
+-- 重命名标识符
 keymap.set("n", "<leader>rn", vim.lsp.buf.rename)
