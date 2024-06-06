@@ -1,0 +1,16 @@
+{
+  "标准c/cpp文件头": {
+    "prefix": "starter",
+    "body": [
+      "///",
+      "/// Copyright © $CURRENT_YEAR Starry. All rights reserved.",
+      "///",
+      "/// @file $TM_FILENAME",
+      "/// @date $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE",
+      "/// @author Starry",
+      "///",
+      "",
+      "$1"
+    ]
+  }
+}
