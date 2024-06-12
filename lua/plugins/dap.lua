@@ -4,10 +4,11 @@ return {
     event = "VeryLazy",
     config = function()
       local dap = require("dap")
+      local home_dir = os.getenv("HOME")
       dap.adapters.cppdbg = {
         id = "cppdbg",
         type = "executable",
-        command = "/home/starry/.local/share/nvim/mason/packages/cpptools/extension/debugAdapters/bin/OpenDebugAD7",
+        command = home_dir .. "/.local/share/nvim/mason/packages/cpptools/extension/debugAdapters/bin/OpenDebugAD7",
       }
       dap.configurations.cpp = {
         {
