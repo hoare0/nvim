@@ -5,6 +5,9 @@ return {
     config = function()
       local dap = require("dap")
       local home_dir = os.getenv("HOME")
+      if home_dir == nil then
+        return
+      end
       dap.adapters.cppdbg = {
         id = "cppdbg",
         type = "executable",
