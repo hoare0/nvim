@@ -7,6 +7,10 @@ end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 require("lazy").setup({
+  git = {
+    -- 使用ssh clone
+    url_format = "git@github.com:%s.git",
+  },
   spec = {
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },

@@ -1,6 +1,6 @@
 {
   "标准c/cpp文件头": {
-    "prefix": "starter",
+    "prefix": "copyright",
     "body": [
       "///",
       "/// Copyright © $CURRENT_YEAR Starry. All rights reserved.",

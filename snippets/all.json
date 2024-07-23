@@ -1,3 +1,68 @@
 {
+  "gitperf": {
+    "prefix": "gitperf",
+    "body": [
+      "perf($1): ⚡️ $2"
+    ]
+  },
+  "gitfeat": {
+    "prefix": "gitfeat",
+    "body": [
+      "feat($1): ✨ $2"
+    ]
+  },
+  "gitfix": {
+    "prefix": "gitfix",
+    "body": [
+      "fix($1): 🐛 $2"
+    ]
+  },
+  "gitdocs": {
+    "prefix": "gitdocs",
+    "body": [
+      "docs($1): 📝 $2"
+    ]
+  },
+  "gitstyle": {
+    "prefix": "gitstyle",
+    "body": [
+      "style($1): 💄 $2"
+    ]
+  },
+  "gitrefactor": {
+    "prefix": "gitrefactor",
+    "body": [
+      "refactor($1): ♻️ $2"
+    ]
+  },
+  "gittest": {
+    "prefix": "gittest",
+    "body": [
+      "test($1): ✅ $2"
+    ]
+  },
+  "gitbuild": {
+    "prefix": "gitbuild",
+    "body": [
+      "build($1): 📦️ $2"
+    ]
+  },
+  "gitci": {
+    "prefix": "gitci",
+    "body": [
+      "ci($1): 🎡 $2"
+    ]
+  },
+  "gitchore": {
+    "prefix": "gitchore",
+    "body": [
+      "chore($1): 🔨 $2"
+    ]
+  },
+  "gitrevert": {
+    "prefix": "gitrevert",
+    "body": [
+      "revert($1): ⏪️ $2"
+    ]
+  }
 }
-

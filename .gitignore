@@ -4,6 +4,7 @@ doc/tags
 debug
 .repro
 foo.*
+*.so
 *.log
 data
 lazy-lock.json
