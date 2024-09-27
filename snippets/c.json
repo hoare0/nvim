@@ -3,11 +3,11 @@
     "prefix": "copyright",
     "body": [
       "///",
-      "/// Copyright © $CURRENT_YEAR Starry. All rights reserved.",
+      "/// Copyright © $CURRENT_YEAR TheFerry. All rights reserved.",
       "///",
       "/// @file $TM_FILENAME",
       "/// @date $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE",
-      "/// @author Starry",
+      "/// @author TheFerry",
       "///",
       "",
       "$1"

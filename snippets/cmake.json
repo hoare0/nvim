@@ -9,5 +9,20 @@
       "set(CMAKE_CXX_STANDARD 20)",
       "$2"
     ]
+  },
+  "arm linux 交叉编译模板": {
+    "prefix": "armlinux",
+    "body": [
+      "# arm linux交叉编译工具链",
+      "set(TOOLCHAIN_PREFIX aarch64-linux-gnu-)",
+      "set(CMAKE_C_COMPILER_FORCED TRUE)",
+      "set(CMAKE_CXX_COMPILER_FORCED TRUE)",
+      "set(CMAKE_C_COMPILER                \\${TOOLCHAIN_PREFIX}gcc)",
+      "set(CMAKE_ASM_COMPILER              \\${CMAKE_C_COMPILER})",
+      "set(CMAKE_CXX_COMPILER              \\${TOOLCHAIN_PREFIX}g++)",
+      "set(CMAKE_LINKER                    \\${TOOLCHAIN_PREFIX}g++)",
+      "set(CMAKE_OBJCOPY                   \\${TOOLCHAIN_PREFIX}objcopy)",
+      "set(CMAKE_SIZE                      \\${TOOLCHAIN_PREFIX}size)"
+    ]
   }
 }
