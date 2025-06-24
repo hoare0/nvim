@@ -1,0 +1,15 @@
+{
+  "querydriver": {
+    "prefix": "querydriver",
+    "body": [
+      "require(\"lspconfig\").clangd.setup({",
+      "  cmd = {",
+      "    \"clangd\",",
+      "    \"--query-driver=**arm-none-linux-gnueabihf-**\",",
+      "  },",
+      "  filetypes = { \"c\", \"cpp\", \"objc\", \"objcpp\", \"cuda\", \"proto\" },",
+      "})",
+      "$1"
+    ]
+  }
+}

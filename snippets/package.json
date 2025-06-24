@@ -20,6 +20,12 @@
           "cmake"
         ],
         "path": "./cmake.json"
+      },
+      {
+        "language": [
+          "lua"
+        ],
+        "path": "./lua.json"
       }
     ]
   }

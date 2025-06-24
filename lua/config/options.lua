@@ -5,3 +5,4 @@
 vim.g.mapleader = ";"
 vim.g.maplocalleader = ";"
 vim.g.autoformat = false
+vim.o.exrc = true
