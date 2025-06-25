@@ -64,5 +64,13 @@
     "body": [
       "revert($1): ⏪️ $2"
     ]
+  },
+  "交叉编译下的.clagnd配置":{
+    "prefix":"armclangd",
+    "body":[
+      "CompileFlags:",
+      "  Remove: [-march=*, -mabi=*, -mcpu=*,-femit-struct-debug-baseonly,-fconserve-stack,-fno-allow-store-data-races]"
+    ]
   }
+
 }
