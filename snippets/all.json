@@ -71,6 +71,28 @@
       "CompileFlags:",
       "  Remove: [-march=*, -mabi=*, -mcpu=*,-femit-struct-debug-baseonly,-fconserve-stack,-fno-allow-store-data-races]"
     ]
+  },
+
+  "编译内核使用的Makefile模板":{
+    "prefix":"kernelmakefile",
+    "body":[
+      "export ARCH=arm",
+      "export CROSS_COMPILE=arm-none-linux-gnueabihf-",
+      "",
+      "obj-m += helloworld.o",
+      "",
+      "KDIR:=~/workspace/luckfox_lyra/kernel-6.1/",
+      "PWD?=\\$(shell pwd)",
+      "",
+      "all:",
+      "  make -C \\$(KDIR) M=\\$(PWD) modules",
+      "",
+      "clangd:",
+      "  \\$(KDIR)/scripts/clang-tools/gen_compile_commands.py -d \\$(KDIR)",
+      "",
+      "clean:",
+      "  make -C \\$(KDIR) M=\\$(PWD) clean"
+    ]
   }
 
 }
