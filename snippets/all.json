@@ -69,7 +69,13 @@
     "prefix":"armclangd",
     "body":[
       "CompileFlags:",
-      "  Remove: [-march=*, -mabi=*, -mcpu=*,-femit-struct-debug-baseonly,-fconserve-stack,-fno-allow-store-data-races]"
+      "\tRemove:",
+      "\t\t- -march=*",
+      "\t\t- -mabi=*",
+      "\t\t- -mcpu=*",
+      "\t\t- -femit-struct-debug-baseonly",
+      "\t\t- -fcon*",
+      "\t\t- -fno-*"
     ]
   },
 
