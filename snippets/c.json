@@ -7,10 +7,10 @@
       "///",
       "/// @file $TM_FILENAME",
       "/// @date $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE",
-      "/// @author TheFerry",
+      "/// @author $1",
       "///",
       "",
-      "$1"
+      "$2"
     ]
   },
   "函数注释块": {
