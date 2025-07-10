@@ -1,18 +1,4 @@
 {
-  "标准c/cpp文件头": {
-    "prefix": "copyright",
-    "body": [
-      "///",
-      "/// Copyright © $CURRENT_YEAR TheFerry. All rights reserved.",
-      "///",
-      "/// @file $TM_FILENAME",
-      "/// @date $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE",
-      "/// @author $1",
-      "///",
-      "",
-      "$2"
-    ]
-  },
   "函数注释块": {
     "prefix": "///",
     "body": [
